@@ -1,4 +1,23 @@
+:root {
+  --background: #2C272E;
+  --highlight: #9AE66E;
+  --base: #F1F6F9;
+  --grayblue: #394867;
+  --deepblue: #14274E;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  background-color: #2C272E;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

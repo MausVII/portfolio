@@ -1,0 +1,252 @@
+.projects-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.project-slide {
+    height: 600px;
+    overflow-y: scroll;
+    padding: 20px;
+    padding-inline: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.nav-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    background-color: var(--deepblue);
+    border: 3px solid #a7a6aa;
+    opacity: 50%;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s all ease-out;
+}
+
+.nav-btns:hover, .nav-btns:focus {
+    opacity: 100%;  
+}
+
+.nav-btns:hover img, .nav-btns:focus img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(103%);
+}
+
+#nav-prev {
+    /* Scrollbar messes with width calculations */
+    right: 94%;
+}
+
+#nav-next {
+    left: 92%;
+}
+
+.project-slide {
+    overflow-y: scroll;
+}
+
+.project-slide a {
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--deepblue);
+}
+
+.project-slide a:hover, .project-slide a:focus {
+    text-decoration: underline;
+}
+
+#slide-1 {
+    top: 0;
+    left: -100%;
+    height: min-content;
+}
+
+#slide-2 {
+    top: 0;
+    left: 0;
+    height: min-content;
+}
+
+#slide-3 {
+    top: 0;
+    left: 100%;
+    height: min-content;
+}
+
+.project-image {
+    width: 50%;
+}
+
+#first-pic-set {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#leafword-1 {
+    border-left: 10px dashed var(--background);
+}
+
+#leafword-2 {
+    border-right: 10px dashed var(--background);
+}
+
+.split-img-text {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#split-text {
+    max-width: 300px;
+}
+
+#squid-movies-1 {
+    width: 400px;
+    border-left: 10px dashed var(--background);
+}
+
+#squid-movies-2 {
+    width: 400px;
+    border-right: 10px dashed var(--background);
+}
+
+#squid-movies-3 {
+    width: 400px;
+}
+
+#bookwalker-1, #bookwalker-2 {
+    width: 400px;
+}
+
+.project-title {
+    text-align: center;
+    padding: 6px;
+    font-family: 'M Plus', sans-serif;
+    background-color: var(--grayblue);
+    font-size: 3em;
+    color: var(--base);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, .5);
+}
+
+* {
+    scrollbar-color: var(--grayblue) var(--base);
+}
+
+::-webkit-scrollbar {
+    background: var(--base);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--base);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--grayblue);
+}
+
+@media screen and (max-width: 500px) {
+    #nav-prev {
+        right: 86%;
+    }
+    #nav-next {
+        left: 86%;
+    }
+    .project-slide {
+        padding: 10px;
+    }
+    #first-pic-set {
+        width: 100%;
+        flex-direction: column;
+    }
+    .project-image {
+        width: 100%;
+        border: none;
+    }
+    #squid-movies-1 {
+        width: 100%;
+        border: none;
+    }
+    #squid-movies-2 {
+        width: 100%;
+        border: none;
+    }
+    .split-img-text {
+        flex-direction: column;
+    }
+    #squid-movies-3 {
+        width: 100%;
+    }
+    #bookwalker-1 {
+        width: 100%;
+    }
+    #bookwalker-2 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    #nav-prev {
+        right: 90%;
+    }
+    #nav-next {
+        left: 90%;
+    }
+    .project-slide {
+        padding: 10px;
+    }
+    #first-pic-set {
+        width: 100%;
+        flex-direction: column;
+    }
+    .project-image {
+        width: 100%;
+        border: none;
+    }
+    #squid-movies-1 {
+        width: 100%;
+        border: none;
+    }
+    #squid-movies-2 {
+        width: 100%;
+        border: none;
+    }
+    .split-img-text {
+        flex-direction: column;
+    }
+    #squid-movies-3 {
+        width: 100%;
+    }
+    #bookwalker-1 {
+        width: 100%;
+    }
+    #bookwalker-2 {
+        width: 100%;
+    }
+
+}

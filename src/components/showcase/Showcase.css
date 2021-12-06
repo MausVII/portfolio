@@ -1,0 +1,12 @@
+#show-case {
+    height: 600px;
+    width: 60vw;
+    background-color: var(--base);
+}
+
+@media screen and (max-width: 850px) {
+    #show-case {
+        width: 80%;
+        height: 100%;
+    }
+}

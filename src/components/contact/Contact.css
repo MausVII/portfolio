@@ -1,0 +1,40 @@
+.contact-group {
+    height: 70px;
+    display: flex;
+}
+
+.contact-icon {
+    height: 100%; 
+}
+
+.contact-btn {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: var(--base);
+    transition: all 0.3s ease;
+}
+
+
+.contact-btn:hover {
+    background-color: var(--grayblue);
+}
+
+#contact-me-btn {
+    border: none;
+    height: 100%;
+    width: 150px;
+    background-color: var(--base);
+    color: var(--deepblue);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+#contact-me-btn:hover {
+    cursor: pointer;
+    background-color: var(--grayblue);
+    color: var(--base)
+}

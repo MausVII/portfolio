@@ -1,0 +1,33 @@
+.nav-bar {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    padding: 10px;
+    margin-inline: 10px;
+    background-color: inherit;
+    color: var(--base);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    border: 2px solid var(--base);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover:not(.active), .nav-link:focus:not(.active) {
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    background-color: var(--base);
+    color: var(--deepblue);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-link {
+        font-size: 1.2em;
+    }
+}

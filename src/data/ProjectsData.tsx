@@ -61,9 +61,9 @@ const ProjectsData: React.FC = () => {
             <div className='projects'>
                 <div className='project-slide description-text' id='slide-1'>
                     <div className='title-nav'>
-                        <button className='nav-btns' id="nav-prev" onClick={handlePrev}><img src='/nav-prev.svg' alt='prev'/></button>
+                    <button className='nav-btns' id="nav-prev" onClick={handlePrev}>Prev</button>
                         <h1 className='project-title'>Squid Movies</h1>
-                        <button className='nav-btns' id="nav-next" onClick={handleNext}><img src='/nav-next.svg' alt='next'/></button>
+                        <button className='nav-btns' id="nav-next" onClick={handleNext}>Next</button>
                     </div>
                     <a href='https://github.com/MausVII/movie-blog'>Visit on Github</a>
                     <div id="first-pic-set">
@@ -94,9 +94,9 @@ const ProjectsData: React.FC = () => {
                 </div>
                 <div className='project-slide description-text active-slide' id='slide-2'>
                     <div className='title-nav'>
-                        <button className='nav-btns' id="nav-prev" onClick={handlePrev}><img src='/nav-prev.svg' alt='prev'/></button>
+                        <button className='nav-btns' id="nav-prev" onClick={handlePrev}>Prev</button>
                         <h1 className='project-title'>LeafWord</h1>
-                        <button className='nav-btns' id="nav-next" onClick={handleNext}><img src='/nav-next.svg' alt='next'/></button>
+                        <button className='nav-btns' id="nav-next" onClick={handleNext}>Next</button>
                     </div>
                     <a href='https://github.com/MausVII/Leaf-Word'>Visit on Github</a>
                     <div id="first-pic-set">
@@ -133,9 +133,9 @@ const ProjectsData: React.FC = () => {
                 </div>
                 <div className='project-slide description-text' id='slide-3'>
                     <div className='title-nav'>
-                        <button className='nav-btns' id="nav-prev" onClick={handlePrev}><img src='/nav-prev.svg' alt='prev'/></button>
+                        <button className='nav-btns' id="nav-prev" onClick={handlePrev}>Prev</button>
                         <h1 className='project-title'>Bookwalker Redesign</h1>
-                        <button className='nav-btns' id="nav-next" onClick={handleNext}><img src='/nav-next.svg' alt='next'/></button>
+                        <button className='nav-btns' id="nav-next" onClick={handleNext}>Next</button>
                     </div>
                     <a href='https://github.com/MausVII/Bookwalker-Redesign'>Visit on Github</a>
                     <img className='project-image' src='/bookwalker-redesign-1-small.jpg' id="bookwalker-1" alt='bookwalker-1'/>

@@ -103,6 +103,11 @@ img {
     line-height: 1.3em;
 }
 
+.list-span {
+    width: 100%;
+    text-align: right;
+}
+
 .commands {
     color: #778b9b;
 }
@@ -120,6 +125,14 @@ ul li {
     background-color: var(--base);
     padding-inline: 2px;
 }
+
+.main {
+    width: 90%;
+  }
+
+  #show-case {
+    width: 100%;
+  }
 
 #self {
     width: 250px;

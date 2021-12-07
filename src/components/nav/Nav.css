@@ -26,6 +26,16 @@
     font-weight: 700;
 }
 
+@media screen and (orientation: landscape) and (max-width: 900px) {
+    .App-header {
+      padding: 10px;
+      align-items: flex-start;
+      height: min-content;
+    }
+
+    
+}
+
 @media screen and (max-width: 500px) {
     .nav-link {
         font-size: 1.2em;

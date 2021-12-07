@@ -29,10 +29,10 @@
 }
 
 .nav-btns {
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2;
     position: absolute;
     background-color: var(--deepblue);
     border: 3px solid #a7a6aa;
@@ -61,7 +61,8 @@
 }
 
 .project-slide {
-    overflow-y: scroll;
+    height: 600px;
+    overflow-y: visible;
 }
 
 .project-slide a {
@@ -79,23 +80,16 @@
 #slide-1 {
     top: 0;
     left: -100%;
-    height: min-content;
 }
 
 #slide-2 {
     top: 0;
     left: 0;
-    height: min-content;
 }
 
 #slide-3 {
     top: 0;
     left: 100%;
-    height: min-content;
-}
-
-.project-image {
-    width: 50%;
 }
 
 #first-pic-set {
@@ -107,11 +101,23 @@
 }
 
 #leafword-1 {
-    border-left: 10px dashed var(--background);
+    min-width: 250px;
+    max-width: 400px;
 }
 
 #leafword-2 {
-    border-right: 10px dashed var(--background);
+    min-width: 250px;
+    max-width: 400px;
+}
+
+#leafword-3 {
+    min-width: 250px;
+    max-width: 400px;
+}
+
+#leafword-4 {
+    min-width: 250px;
+    max-width: 400px;
 }
 
 .split-img-text {
@@ -140,7 +146,7 @@
 }
 
 #bookwalker-1, #bookwalker-2 {
-    width: 400px;
+    width: 100%;
 }
 
 .project-title {
@@ -169,12 +175,25 @@
     background: var(--grayblue);
 }
 
+@media screen and (orientation: landscape) {
+    #first-pic-set {
+        flex-direction: row;
+    }
+
+    #leafword-1 {
+        width: 45%;
+    }
+    #leafword-2 {
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     #nav-prev {
-        right: 86%;
+        right: 76%;
     }
     #nav-next {
-        left: 86%;
+        left: 76%;
     }
     .project-slide {
         padding: 10px;

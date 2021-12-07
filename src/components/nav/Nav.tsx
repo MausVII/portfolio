@@ -17,6 +17,7 @@ const Nav: React.FC<Props> = ({activeBtn}) => {
             <Link to="/projects" className={`nav-link ${active === "projects" ? "active": ""}`}>Projects</Link>
             <Link to="/skills" className={`nav-link ${active === "skills" ? "active": ""}`}>Skills</Link>
             <Link to="/about" className={`nav-link ${active === "about" ? "active": ""}`}>About Me</Link>
+
         </div>
     )
 }

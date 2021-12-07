@@ -1,7 +1,14 @@
 #show-case {
     height: 600px;
     width: 60vw;
+    max-width: 1200px;
     background-color: var(--base);
+}
+
+@media screen and (orientation: landscape) {
+    #show-case {
+      width: 100%;
+    }
 }
 
 @media screen and (max-width: 850px) {

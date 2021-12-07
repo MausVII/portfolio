@@ -15,13 +15,11 @@ const AboutData: React.FC = () => {
                     I went to college at Texas State University in San Marcos where I graduated with a
                     <span className='vars'> Bachelor's degree in Computer Science and a minor in Mathematics</span>. I took several classes
                     that gave me a head start into Web Development:
-                    <ul>
-                        <li>Software Development</li>
-                        <li>Software Development Project</li>
-                        <li>Machine Learning</li>
-                        <li>Data Mining</li>
-                        <li>Intro To SQL Databases</li>
-                    </ul>
+                        <br/>Software Development
+                        <br/>Software Development Project
+                        <br/>Machine Learning
+                        <br/>Data Mining
+                        <br/>Intro To SQL Databases<br/>
                     <span className='commands'>~ ...</span><br />
                 </p>
                 <br />

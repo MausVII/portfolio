@@ -6,7 +6,7 @@ const SkillData = () => {
         <div id="showcase-container">
             <div className='description-text'>
                 <p>
-                    <span className='commands important'>~ skills --confident</span>
+                    <span className='commands important'>~ skills --comfortable</span>
                 </p>  
             </div>
              

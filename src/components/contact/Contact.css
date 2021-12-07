@@ -20,7 +20,8 @@
     background-color: var(--grayblue);
 }
 
-#contact-me-btn {
+#contact-me-btn, #contact-me-btn a {
+    text-decoration: none;
     border: none;
     height: 100%;
     width: 150px;
@@ -33,7 +34,7 @@
     transition: all 0.3s ease;
 }
 
-#contact-me-btn:hover {
+#contact-me-btn:hover, #contact-me-btn:hover a {
     cursor: pointer;
     background-color: var(--grayblue);
     color: var(--base)

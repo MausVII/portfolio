@@ -37,8 +37,8 @@ const SkillData = () => {
                 </div>
 
                 <div className='tech-div'>
-                    <img src='/postgresql.svg' alt='postgresql'/>
-                    <p>PostgreSQL</p>
+                    <img src='/mysql.svg' alt='mysql'/>
+                    <p>MySQL</p>
                 </div>
 
                 <div className='tech-div'>
@@ -69,6 +69,11 @@ const SkillData = () => {
                 <div className='tech-div'>
                     <img src='/python.svg' alt='python'/>
                     <p>Python</p>
+                </div>
+
+                <div className='tech-div'>
+                    <img src='/cpp.svg' alt='cpp'/>
+                    <p>C++</p>
                 </div>
 
                 <div className='tech-div'>

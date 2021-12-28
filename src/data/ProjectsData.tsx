@@ -65,6 +65,7 @@ const ProjectsData: React.FC = () => {
                         <h1 className='project-title'>Squid Movies</h1>
                         <button className='nav-btns' id="nav-next" onClick={handleNext}><img src='/nav-next.svg' alt='next'/></button>
                     </div>
+                    <a href='https://squid-movies.vercel.app/'>Visit Site</a>
                     <a href='https://github.com/MausVII/movie-blog'>Visit on Github</a>
                     <div id="first-pic-set">
                         <img className='project-image' src='/squid-movies-1-small.jpg' id="squid-movies-1" alt='squid-movies-1'/>

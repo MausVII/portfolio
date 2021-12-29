@@ -20,11 +20,15 @@
     background-color: var(--grayblue);
 }
 
+#contact-me-btn {
+    padding: 4px;
+}
+
 #contact-me-btn, #contact-me-btn a {
     text-decoration: none;
     border: none;
     height: 100%;
-    width: 150px;
+    width: 170px;
     background-color: var(--base);
     color: var(--deepblue);
     font-family: 'Roboto', sans-serif;

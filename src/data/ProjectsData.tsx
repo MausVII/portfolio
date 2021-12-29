@@ -139,7 +139,7 @@ const ProjectsData: React.FC = () => {
                         <button className='nav-btns' id="nav-next" onClick={handleNext}><img src='/nav-next.svg' alt='next'/></button>
                     </div>
                     <a href='https://github.com/MausVII/Bookwalker-Redesign'>Visit on Github</a>
-                    <img className='project-image' src='/bookwalker-redesign-1-small.jpg' id="bookwalker-1" alt='bookwalker-1'/>
+                    <img className='project-image' src='/bookwalker-redesign-3.jpg' id="bookwalker-1" alt='bookwalker-1'/>
                     <p>
                         <span className='commands'>~</span><br/>
                         The Bookwalker Redesign is an ongoing personnal project that aims into making a more approachable and modern
@@ -150,7 +150,7 @@ const ProjectsData: React.FC = () => {
                         somewhat slow.
                         <br/><span className='commands'>...</span>
                     </p>
-                    <img className='project-image' src='/bookwalker-redesign-2-small.jpg' id="bookwalker-2" alt='bookwalker-2'/>
+                    <img className='project-image' src='/bookwalker-redesign-4.jpg' id="bookwalker-2" alt='bookwalker-2'/>
                     <p>
                         <span className='commands'>~</span><br/>
                         Currently the app connects to a PostgreSQL database containing around 30 documents in two tables, Mangas and Lightnovels, as

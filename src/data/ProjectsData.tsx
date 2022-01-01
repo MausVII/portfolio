@@ -86,7 +86,7 @@ const ProjectsData: React.FC = () => {
                         <p id="split-text">
                         <span className='commands'>~</span><br/>
                         Using GraphQl instead of a relational/non-relational database like PostgreSQL or MongoDB was daunting and difficult
-                        at times, but still insteresting and a learning experience. The queries look very different and can get confusing at times,
+                        at times, but still interesting and a learning experience. The queries look very different and can get confusing at times,
                         but they natural after some exposure. Building the blog itself was a lot of fun since it allowed me to connect my work to
                         something I'm very interested in, Movies.
                         <br/><span className='commands'>...</span>

@@ -153,13 +153,13 @@ const ProjectsData: React.FC = () => {
                     <img className='project-image' src='/bookwalker-redesign-4.jpg' id="bookwalker-2" alt='bookwalker-2'/>
                     <p>
                         <span className='commands'>~</span><br/>
-                        Currently the app connects to a PostgreSQL database containing around 30 documents in two tables, Mangas and Lightnovels, as
+                        Currently the app connects to a MySQL database containing around 150 documents in two tables as
                         well as a few other tables used to store information like publishers, genres, sales and so on. Since I managed to create a decently
                         sized database recently, I've been able to focus on creating new functionality that makes the project closer to a full website. As of now, there is
                         dynamic generation of pages by clicking through links using React-Router-Dom 6, so that you can see the details of each specific book or get a list
-                        of books by genre or publisher. Soon, I'll implement what I consider are the most important missing factor: user authentication and keyword search. Once that
+                        of books by genre or publisher as well as keywords search. Soon, I'll implement what I consider are the most important missing factor: user authentication. Once that
                         is done I'll decide what to do with sections that are less clear on purpose or legality: for example, the original website has a preview feature but that
-                        is well within what I'm allowed to create, there are also some links that direct to unrelated sites; for example, right now the Follow Us links go directly
+                        is well within what I'm allowed to create, there are also some links that direct to unrelated sites: right now the Follow Us links go directly
                         to the original's social media accounts.
                         <br/><span className='commands'>...</span>
                     </p>

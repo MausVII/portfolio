@@ -142,7 +142,7 @@ const ProjectsData: React.FC = () => {
                     <img className='project-image' src='/bookwalker-redesign-3.jpg' id="bookwalker-1" alt='bookwalker-1'/>
                     <p>
                         <span className='commands'>~</span><br/>
-                        The Bookwalker Redesign is an ongoing personnal project that aims into making a more approachable and modern
+                        The Bookwalker Redesign is an ongoing personal project that aims into making a more approachable and modern
                         version of Bookwalker's - an eBook online store - current global website. It is not uncommon for Japanese Websites
                         to be behind in western standard for design and responsiveness, which is the main purpose of this project.
                         However building the website from scratch also entails creating a database and an API that connects it to the

@@ -138,6 +138,7 @@ const ProjectsData: React.FC = () => {
                         <h1 className='project-title'>Bookwalker Redesign</h1>
                         <button className='nav-btns' id="nav-next" onClick={handleNext}><img src='/nav-next.svg' alt='next'/></button>
                     </div>
+                    <a href='https://www.bookwalker-redesign.com'>Visit Site</a>
                     <a href='https://github.com/MausVII/Bookwalker-Redesign'>Visit on Github</a>
                     <img className='project-image' src='/bookwalker-redesign-3.jpg' id="bookwalker-1" alt='bookwalker-1'/>
                     <p>

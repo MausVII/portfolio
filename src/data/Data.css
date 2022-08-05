@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px;
     overflow-y: scroll;
 }
@@ -55,6 +56,7 @@ img {
 #pic-div {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-inline: 20px;
 }
 

@@ -107,6 +107,7 @@
 @media screen and (min-width: 800px) {
     .App-header {
       width: 100%;
+      max-width: 1000px;
       flex-direction: row;
       justify-content: space-between;
     }
@@ -114,6 +115,5 @@
     #name {
       flex-direction: column;
       justify-content: center;
-
     }
 }

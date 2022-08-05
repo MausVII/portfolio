@@ -16,7 +16,7 @@ const BlinkingText = ({text, interval_time}: BlinkingProps) => {
       return () => {
         clearInterval(interval)
       }
-    }, [visible])
+    }, [visible, interval_time])
     
 
     return <span className='commands' style={{ opacity: visible ? "100%" : "0%"}}>{text}</span>

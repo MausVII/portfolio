@@ -42,7 +42,7 @@ const ProjectsData: React.FC = () => {
                 </div>
                 <a className='project-link' href='https://squid-movies.vercel.app/'>Visit Site</a>
                 <a className='project-link' href='https://github.com/MausVII/movie-blog'>Visit on Github</a>
-                <div id="first-pic-set">
+                <div className="proj-image-container">
                     <img className='project-image' src='/squid-movies-1-small.jpg' id="squid-movies-1" alt='squid-movies-1'/>
                     <img className='project-image' src='/squid-movies-2-small.jpg' alt='squid-movies-2' id="squid-movies-2"/>
                 </div>
@@ -73,7 +73,7 @@ const ProjectsData: React.FC = () => {
                     <h1 className='project-title'>LeafWord</h1>
                 </div>
                 <a className='project-link' href='https://github.com/MausVII/Leaf-Word'>Visit on Github</a>
-                <div id="first-pic-set">
+                <div className="proj-image-container">
                     <img className='project-image' src='/leafword-1-small.jpg' id="leafword-1" alt='leafword-1'/>
                     <img className='project-image' src='/leafword-2-small.jpg' id="leafword-2" alt='leafword-2'/>
                 </div>
@@ -92,7 +92,7 @@ const ProjectsData: React.FC = () => {
                     can be code UI components. 
                     <br/><BlinkingText text='...' interval_time={520}/>
                 </p>
-                <div id="first-pic-set">
+                <div className="proj-image-container">
                     <img className='project-image' src='/leafword-3-small.jpg' alt='leafword-3'/>
                     <img className='project-image' src='/leafword-4-small.jpg' alt='leafword-4' id="leafword-4"/>
                 </div>

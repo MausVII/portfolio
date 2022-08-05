@@ -1,6 +1,5 @@
 #show-case {
-    height: 600px;
-    width: 60vw;
+    width: 100%;
     max-width: 1200px;
     background-color: var(--base);
 }
@@ -14,6 +13,5 @@
 @media screen and (max-width: 850px) {
     #show-case {
         width: 80%;
-        height: 100%;
     }
 }

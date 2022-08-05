@@ -10,6 +10,7 @@ const Home: React.FC = () => {
         <div className='main'>
             <Nav activeBtn='about'/>
             <Showcase title="home" data={<AboutData />}/>
+
         </div>
     )
 }

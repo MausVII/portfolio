@@ -64,7 +64,7 @@ const SkillData = () => {
 
                 <div className='tech-div'>
                     <img src='/nodejs.svg' alt='nodejs' className='white-bg'/>
-                    <p>Node Js</p>
+                    <p>Node.js</p>
                 </div>
 
                 <div className='tech-div'>
@@ -99,7 +99,7 @@ const SkillData = () => {
 
                 <div className='tech-div'>
                     <img src='/electron.svg' alt='electron'/>
-                    <p>Electron Js</p>
+                    <p>Electron</p>
                 </div>
 
                 <div className='tech-div'>

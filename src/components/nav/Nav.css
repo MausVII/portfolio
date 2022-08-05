@@ -1,14 +1,22 @@
 .nav-bar {
+    width: 100%;
+
     display: flex;
+    justify-content: space-between;
+
     margin-top: 0;
     margin-bottom: 5px;
 }
 
 .nav-link {
-    padding: 10px;
-    margin-inline: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
     background-color: inherit;
     color: var(--base);
+
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     border: 2px solid var(--base);

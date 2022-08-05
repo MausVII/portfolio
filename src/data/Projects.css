@@ -1,31 +1,60 @@
-.projects-container {
+.projects {
+    width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    flex-direction: column;
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    width: 100%;
-    height: 100%;
+.project-link {
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--deepblue);
 }
+
+.project-link:hover, .project-link:focus {
+    text-decoration: underline;
+}
+
+.project-title {
+    text-align: center;
+    padding: 6px;
+    font-family: 'M Plus', sans-serif;
+    background-color: var(--grayblue);
+    font-size: 3em;
+    color: var(--base);
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, .5);
+}
+
+.project-image {
+    max-width: 100%;
+}
+
+* {
+    scrollbar-color: var(--grayblue) var(--base);
+}
+
+::-webkit-scrollbar {
+    background: var(--base);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--base);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--grayblue);
+}
+/* 
 
 .project-slide {
-    height: 600px;
-    overflow-y: scroll;
+    width: 100%;
     padding: 20px;
     padding-inline: 40px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
 }
 
 .title-nav {
@@ -35,59 +64,15 @@
     justify-content: center;
 }
 
-.nav-btns {
-    margin-inline: 20px;
-    color: var(--base);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--deepblue);
-    border: 3px solid #a7a6aa;
-    opacity: 0.5;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    transition: 0.3s all ease-out;
-}
-
-.nav-btns:hover, .nav-btns:focus {
-    opacity: 1.0;  
-}
-
-.nav-btns:hover img, .nav-btns:focus img {
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(103%);
-}
-
 .project-slide {
     height: 600px;
     overflow-y: visible;
 }
 
-.project-slide a {
-    padding: 6px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: var(--deepblue);
-}
+
 
 .project-slide a:hover, .project-slide a:focus {
     text-decoration: underline;
-}
-
-#slide-1 {
-    top: 0;
-    left: -100%;
-}
-
-#slide-2 {
-    top: 0;
-    left: 0;
-}
-
-#slide-3 {
-    top: 0;
-    left: 100%;
 }
 
 #first-pic-set {
@@ -254,4 +239,4 @@
         width: 100%;
     }
 
-}
+} */

@@ -14,8 +14,8 @@ function App() {
       <Info />
       <header className="App-header">
         <div id="name">
-          <h1>Val Puente</h1>
-          <p>Full Stack Web Developer</p>
+          <h1>Elan Locke</h1>
+          <p>Software Engineer</p>
         </div>
         <div id="contact">
           <Contact />

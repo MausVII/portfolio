@@ -1,5 +1,5 @@
 .contact-group {
-    height: 70px;
+    height: 3rem;
     display: flex;
 }
 
@@ -8,6 +8,7 @@
 }
 
 .contact-btn {
+    height: 100%;
     cursor: pointer;
     padding: 10px;
     border: none;

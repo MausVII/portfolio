@@ -4,7 +4,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div className='contact-group'>
-            <button className='contact-btn'><a href="https://www.linkedin.com/in/val-puente-744505226"><img className='contact-icon' alt="LinkedIn" src='/linkedin.svg'></img></a></button>
+            <button className='contact-btn'><a href="https://www.linkedin.com/in/elan-locke/"><img className='contact-icon' alt="LinkedIn" src='/linkedin.svg'></img></a></button>
             <button className='contact-btn'><a href="mailto:elanlocke@gmail.com"><img className='contact-icon' alt="Gmail" src='/gmailicon.svg'></img></a></button>
             <button id="contact-me-btn" onClick={() => {
                 //@ts-ignore

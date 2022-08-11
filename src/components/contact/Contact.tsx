@@ -9,7 +9,7 @@ const Contact = () => {
             <button id="contact-me-btn" onClick={() => {
                 //@ts-ignore
                 document.querySelector('.contact-info')!.style.display = 'flex'
-            }}>Contact Me</button>
+            }}><a href="https://www.linkedin.com/in/elan-locke/">Contact Me</a></button>
         </div>
     )
 }

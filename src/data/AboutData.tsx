@@ -28,7 +28,7 @@ const AboutData: React.FC = () => {
                 <br />
                 <p>
                     <span className='commands'>~ coding --drive</span><br />
-                    I am a <span className='vars'>programmer at heart</span>. There is <span className='vars'>always a VS Code window open</span> in PC and there is always that lingering
+                    I am a <span className='vars'>programmer at heart</span>. There is <span className='vars'>always a VS Code window open</span> in my PC and there is always that lingering
                     train of thought in my head about how to tackle the bug I found yesterday, how should I structure my code for
                     this task, how to divide new problems into chunks I can jump into... Developing a program takes a million steps and
                     I love watching <span className='vars'>the results of my work</span> after each step as well as the <span className='vars'>skill expression</span> they require from you; every programmer
